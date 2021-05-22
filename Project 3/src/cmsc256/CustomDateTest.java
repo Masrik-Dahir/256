@@ -3,6 +3,26 @@
  * 04 Match 2021
  * CMSC 256-901
  ****************************************************************************/
+/****************************************************************************
+Write a Java class CustomDate that represents a calendar date consisting of a month, day, and year.  Use three data fields of type int to represent the date.  For example, July 4, 1776, is month 7, day 4, and year 1776.  There should be no other instance variables other than these three integer values.
+Use the same package structure as for the previous projects: package cmsc256;
+Write both default and parameterized constructors – the default date should be set to January 1, 1900.
+Setter methods (setDay, setMonth, setYear) with one argument to change the day month or year (the month setter is overloaded – one setter to accept an integer value and the other to accept a String representing the month);
+Getter methods (getDay, getMonth, getYear) that return the day, month, or year as an int;
+A toString method (public String toString()).
+In addition, provide methods that
+Determine whether the current year is a leap year (public boolean isLeapYear())
+Advance the current date by one day (public void advanceOneDay())
+Advance the current date by one week (public void advanceOneWeek())
+Override the equals method from Object (public boolean equals(Object obj))
+Compares this CustomDate object with the object passed as a parameter for chronological order and returns a negative integer, zero, or a positive integer, if this object is less than, equal to, or greater than the specified object. (public int compareTo (CustomDate obj) )
+ 
+A year is a leap year if it is divisible by 4 but not by 100.  If the year is divisible by 100, it is a leap year only if it is also divisible by 400.
+           
+Write a class to test your class called CustomDateTest using JUnit4 as done in the lab assignment for the previous project. You will submit your JUnit test class as part of your grade.
+You will submit your CustomDate.java file into Gradescope. However, I will test your class with my own JUnit tests for your grade after the due date.
+Write this program in JAVA and compile it in JDK 8 or better.  Follow all commenting conventions discussed in class and include a comment block at the top of each file with your name, date, the course number and section. In addition, the comment block at the top of the test class must include a description of the test program purpose.
+*******************************************************************************/
 package cmsc256;
 
 import static org.junit.Assert.*;
