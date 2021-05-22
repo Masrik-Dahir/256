@@ -1,9 +1,13 @@
-/**
- *   Debra Duke
- *   Computer Science Department
- *   School of Engineering
- *   Virginia Commonwealth University
- */
+/****************************************************************************
+ * Masrik Dahir
+ * 19 Match 2021
+ * CMSC 256-901
+ ****************************************************************************/
+/****************************************************************************
+For this program, you will use the BRIDGES DLelement class (https://bridgesuncc.github.io/doc/java-api/current/html/classbridges_1_1base_1_1_d_lelement.htm (Links to an external site.)l), instead of the Link class to implement a doubly-linked list. This class is to be named BridgesDoublyLinkedList<E> and you it must implement the provided List.java  downloadclass. Test your implementation thoroughly and include a main method that produces the output described below.
+Output. Use the BRIDGES visualizer to display the contents of the linked list after adding 35 Strings, testing all of the methods in the interface within a main method of your BridgesDoublyLinkedList class, and creating a visualization of your doubly-linked list on the Bridges platform.
+Write the program in Java and compile it in JDK 8 or better.  Follow all commenting conventions discussed in class and include a comment block at the top of your class file, BridgesDoublyLinkedList.java, with your name, semester, the course number and section.
+*******************************************************************************/
 package cmsc256;
 
 //List class ADT. Generalize the element type using Java Generics.
