@@ -4,6 +4,22 @@
  * CMSC 256-901
  ****************************************************************************/
 
+/****************************************************************************
+* Develop a Java class called Grid that correctly implements the specified methods. A grid is a 2-dimensional array that has 3 rows and 3 columns.
+
+* The class has a parameterless constructor to create the 2-dimensional character array instance variable. You will implement a parameterless constructor to your Grid class to create the 2-dimensional character array instance variable. The remaining methods of the class all act upon the instance variable that represents the 2-D array. The semantics of the methods can be determined from their name and from the Javadoc comments in the starter code file. If not, please ask for clarification on the Discussion Board forum.
+
+* This class and every other project file this semester must be implemented in a package called cmsc256. If you do not have the package named correctly, your code will not compile in Gradescope.
+
+* Incomplete (skeleton) code is provided for you to help you get started with the project. If you choose not to use the starter code, you might have problems submitting to Gradescope for grading.
+
+* Write this program in JAVA and compile it in JDK 8. Be aware that Gradescope uses JDK version 8, so features in more recent releases may not work in Gradescope.
+
+* Follow all coding and commenting conventions posted in Canvas and include a comment block at the top of each file with your name, date, the course number and section.
+
+* Upload the project source code file, Grid.java to Gradescope on or before the due date. 
+*****************************************************************************/
+
 package cmsc256;
 
 public class Grid {
